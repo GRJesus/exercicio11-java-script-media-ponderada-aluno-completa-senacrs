@@ -12,8 +12,8 @@ var d = parseInt(prompt("Insira sua terceira nota"));
 var max = Math.max (b,c,d);
 var e = 4;
 var f = 3;
-var g = (max * e) + (((b + c + d) - max)*f);
-var average = " ";
+var g = (max * e) + (((b + c + d) - max) * f);
+var average = g / (e + f + f);
 var message1 = "aprovado";
 var message2 = "reprovado";
 //document.body.append (max);
@@ -34,8 +34,8 @@ if (average < 5) {
     p3.append ("A segunda nota da prova é = " + x3);
     var x4 = d;
     p4.append ("A terceira nota da prova é = " + x4);
-    var average = g / (e + f + f);
-    p5.append ("Sua média final foi = " + average);
+    var x5 = average;
+    p5.append ("Sua média final foi = " + x5);
     var x6 = message2;
     p6.append ("Infelizmente voce foi " + x6);
     
@@ -55,8 +55,8 @@ if (average < 5) {
     p3.append ("A segunda nota da prova é = " + x3);
     var x4 = d;
     p4.append ("A terceira nota da prova é = " + x4);
-    var average = g / (e + f + f);
-    p5.append ("Sua média final foi = " + average);
+    var x5 = average;
+    p5.append ("Sua média final foi = " + x5);
     var x6 = message1;
     p6.append ("Parabéns você foi " + x6);
 
